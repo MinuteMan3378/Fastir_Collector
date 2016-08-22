@@ -31,6 +31,9 @@ class Windows7Files(_FS):
     def csv_print_list_windows_prefetch(self):
         super(Windows7Files, self)._csv_windows_prefetch(self._list_windows_prefetch())
 
+    def csv_print_list_windows_lnk(self):
+        super(Windows7Files, self)._csv_windows_lnk()
+
     def csv_skype_history(self):
         super(Windows7Files, self)._skype_history(['AppData\Roaming\Skype'])
 
